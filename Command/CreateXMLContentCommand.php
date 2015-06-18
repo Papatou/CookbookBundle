@@ -14,7 +14,7 @@ use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand,
     Symfony\Component\Console\Input\InputArgument,
     Symfony\Component\Console\Input\InputOption;
 
-class CreateXmlContentCommand extends ContainerAwareCommand
+class CreateXMLContentCommand extends ContainerAwareCommand
 {
     protected function configure()
     {
